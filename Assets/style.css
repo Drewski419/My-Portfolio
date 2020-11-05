@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    background: #e7edef;
+  }
+  
+  header {
+    background: rgb(3, 71, 83);
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: left;
+  }
+
+  a:hover {
+    background-color: red;
+  }
+  
+  #asdf {color: white;
+    padding: 20px 20px 20px 20px;
+    background-color: blue;
+  }
+
+  .nice-margin {
+    margin-bottom: 20px;
+  }
+
+  .img-thumbnail {
+    width: auto;
+    height: auto;
+  }
+
+  .img-medium {
+    width: 350px;
+    height: 350px;
+  }
+
+
+  /**
+ * Media Query Style Exercise: Solved;
+ **/
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+  The background color will be #ccc
+  at browser widths above 768px
+*/
+body {
+  /* Typography */
+  font-size: 18px;
+  line-height: 27px;
+
+  /* Visual */
+  background-color: #ccc;
+}
+
+/*
+  The width of the wrapper will be 1024px
+  at browser widths above 768px
+*/
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 40px auto;
+}
+
+#main-content,
+#sidebar {
+  /* Box-model */
+  width: 500px;
+  padding: 30px;
+}
+
+#main-content {
+  /* Positioning */
+  float: left;
+
+  /* Visual */
+  background: #fff;
+}
+
+#sidebar {
+  /* Positioning */
+  float: right;
+
+  /* Visual */
+  background: #eee;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 168px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
