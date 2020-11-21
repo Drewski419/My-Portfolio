@@ -17,12 +17,16 @@ hiroki5321@gmail.com
 
 # contact page
 
-Cough_Drops_album_cover.png
-Famous_album_cover.png
-Far_Away_Album_cover.png
-First_one_i.jpg
-IMG_5259.jpb
+[ScreenShot](Cough_Drops_album_cover.png)/
+
+[ScreenShot](Famous_album_cover.png)/
+
+[ScreenShot](Far_Away_Album_cover.png)/
+
+[ScreenShot](First_one_i.jpg)/
+
+[ScreenShot](IMG_5259.jpg)/
 
 # index page
 
-Just_you_album_cover.png
+[ScreenShot](Just_you_album_cover.png)
